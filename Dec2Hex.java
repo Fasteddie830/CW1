@@ -1,14 +1,15 @@
 import java.util.Scanner;
 
-class Dec2Hex {
+class Dec2Hex
+{
 
     public static int Arg1;
 
-    public static void main(String args[])
+    public static void main(String args[]) throws Exception{
     {
     	try {
     		Arg1 = Integer.parseInt(args[0]);
-    		if(Arg1 == 0 || args[0].isEmpty()) {
+    		if(Arg1 == 0) {
     			throw new ArrayIndexOutOfBoundsException("The input was either 0 or empty, please enter a number above 0");
     		}
     	}
@@ -34,6 +35,9 @@ class Dec2Hex {
         System.out.println("Hexadecimal representation is: " + hexadecimal);
 
     }
-
+    
+    throw new ArrayIndexOutOfBoundsException(); 
+    
+    }
 }
 
