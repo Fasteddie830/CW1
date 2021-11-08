@@ -8,7 +8,7 @@ class Dec2Hex {
     {
     	try {
     		Arg1 = Integer.parseInt(args[0]);
-    		if(Arg1 == 0) {
+    		if(Arg1 == 0 || args[0].lenght() == 0) {
     			throw new RuntimeException("The input was either 0 or empty, please enter a number above 0");
     		}
     	}
