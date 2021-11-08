@@ -14,7 +14,7 @@ class Dec2Hex {
     	}
     	
     	catch(Exception e) {
-    		System.out.println(Arg1 + " is not a valid number, please enter a number above 0");
+    		System.out.println(args[0] + " is not a valid number, please enter a number above 0");
     		return;
     	}
         
