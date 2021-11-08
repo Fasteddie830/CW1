@@ -1,17 +1,20 @@
 import java.util.Scanner;
 
-class Dec2Hex
-{
+class Dec2Hex {
 
     public static int Arg1;
 
     public static void main(String args[]) throws Exception{
+    	if(args.length == 0){
+    		System.out.println("Input was either a 0 or empty, please enter a number above 0");
+    		return;
+    	}
     {
     	try {
     		Arg1 = Integer.parseInt(args[0]);
-    		if(Arg1 == 0 || args.length == 0) {
+    		if(Arg1 == 0) {
     			System.out.println("Input was either a 0 or empty, please enter a number above 0");
-			return;
+        		return;
     		}
     	}
     	
