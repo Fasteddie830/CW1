@@ -6,8 +6,18 @@ class Dec2Hex
     public static int Arg1;
 
     public static void main(String args[])
-    {
-        Arg1 = Integer.parseInt(args[0]);
+    	try {
+    		Arg1 = Integer.parseInt(args[0]);
+    		if(Arg1 == 0) {
+    			throw new RuntimeException("The input was either 0 or empty, please enter a number above 0");
+    		}
+    	}
+    	
+    	catch(Exception e) {
+    		System.out.println(Arg1 + " is not a valid number, please enter a number above 0");
+    		return;
+    	}
+        
         char ch[]={'0','1','2','3','4','5','6','7','8','9','A','B','C','D','E','F'};
         int rem, num;
         num = Arg1;
