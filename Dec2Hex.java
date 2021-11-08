@@ -1,6 +1,6 @@
-package devops;
+import java.util.Scanner;
 
-public class CW1 {
+class Dec2Hex {
 
     public static int Arg1;
 
