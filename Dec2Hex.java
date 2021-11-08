@@ -1,11 +1,11 @@
-import java.util.Scanner;
+package devops;
 
-class Dec2Hex
-{
+public class CW1 {
 
     public static int Arg1;
 
     public static void main(String args[])
+    {
     	try {
     		Arg1 = Integer.parseInt(args[0]);
     		if(Arg1 == 0) {
@@ -34,5 +34,6 @@ class Dec2Hex
         System.out.println("Hexadecimal representation is: " + hexadecimal);
 
     }
+
 }
 
