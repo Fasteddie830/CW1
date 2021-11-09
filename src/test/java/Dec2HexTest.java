@@ -4,7 +4,7 @@ public class Dec2HexTest {
 
     @Test
     public void NullTest(){
-        System.out.println();
+        System.out.println("Testing Start");
         System.out.println("Testing empty value");
         Dec2Hex.main(new String[]{});
         System.out.println();
