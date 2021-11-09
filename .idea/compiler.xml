@@ -17,7 +17,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="CW1" target="17" />
+      <module name="CW1" target="1.8" />
       <module name="Maven" target="17" />
       <module name="untitled" target="1.5" />
       <module name="wrapper" target="1.5" />
