@@ -6,6 +6,13 @@
     <groupId>org.example</groupId>
     <artifactId>Maven</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>GitHub Fasteddie830 Apache Maven Packages</name>
+            <url>https://github.com/Fasteddie830/CW1</url>
+        </repository>
+    </distributionManagement>
     <dependencies>
         <dependency>
             <groupId>org.junit.jupiter</groupId>
