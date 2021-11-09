@@ -16,6 +16,10 @@ class Dec2Hex {
 					System.out.println("Input was either a 0 or empty, please enter a number above 0");
 					return;
 				}
+				else if(Arg1 <= 0){
+					System.out.println("Input was either a 0 or a negative number, please enter a number above 0");
+					return;
+				}
 			}
 
 			catch(Exception e) {
