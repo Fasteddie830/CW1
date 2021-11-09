@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="CW1" />
+        <module name="Maven" />
       </profile>
       <profile name="Annotation profile for Unknown" enabled="true">
         <sourceOutputDir name="../../target/generated-sources/annotations" />
@@ -17,6 +18,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="CW1" target="1.5" />
+      <module name="Maven" target="17" />
       <module name="untitled" target="1.5" />
       <module name="wrapper" target="1.5" />
     </bytecodeTargetLevel>
