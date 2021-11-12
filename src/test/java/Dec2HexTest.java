@@ -32,7 +32,7 @@ public class Dec2HexTest {
     }
 
     @Test
-    public void BigTest(){  // with a normal bigger integer as input, code is expected to run
+    public void BigTest(){  //Testing with a normal bigger integer as input, code is expected to run
         System.out.println("Testing bigger value");
         Dec2Hex.main(new String[]{"10000"});
         System.out.println();
