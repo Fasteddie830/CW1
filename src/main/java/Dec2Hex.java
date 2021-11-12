@@ -33,7 +33,7 @@ class Dec2Hex {
 			String hexadecimal="";
 			System.out.println("Converting the Decimal Value " + num + " to Hex...");
 
-			while(num != 0)  //Decimal to hexadecimal calculations + conversion
+			while(num != 0)  //decimal to hexadecimal calculations + conversion
 			{
 				rem=num%16;
 				hexadecimal= ch[rem] + hexadecimal;
