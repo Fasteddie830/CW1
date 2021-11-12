@@ -18,7 +18,7 @@ public class Dec2HexTest {
     }
 
     @Test
-    public void PositiveTest(){ //Testing with a normal integer as input, code is expected to run
+    public void PositiveTest(){ //Testing with a normal integer as input, code is expected to run fine
         System.out.println("Testing positive int value");
         Dec2Hex.main(new String[]{"4"});
         System.out.println();
